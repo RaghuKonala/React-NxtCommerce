@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.summary-container {
+  align-self: flex-end;
+  width: 230px;
+}
+@media screen and (min-width: 768px) {
+  .summary-container {
+    width: 275px;
+  }
+}
+.summary-header {
+  color: #616e7c;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin: 0px;
+  line-height: 1.5;
+}
+@media screen and (min-width: 768px) {
+  .summary-header {
+    font-size: 24px;
+  }
+}
+
+.summary-content {
+  color: #616e7c;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  line-height: 1.7;
+}
+@media screen and (min-width: 768px) {
+  .summary-content {
+    font-size: 16px;
+  }
+}
+.total-amount {
+  color: #171f46;
+  font-size: 24px;
+}
+@media screen and (min-width: 768px) {
+  .total-amount {
+    font-size: 26px;
+  }
+}
+.checkout-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  padding: 10px 12px;
+  width: 100%;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .checkout-button {
+    font-size: 14px;
+    padding: 12px 14px;
+  }
+}
