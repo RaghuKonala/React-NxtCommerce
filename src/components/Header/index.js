@@ -33,14 +33,9 @@ const Header = props => {
     <nav className="nav-header">
       <div className="nav-content">
         <div className="nav-bar-mobile-logo-container">
-          <Link to="/">
-            <img
-              className="website-logo"
-              src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
-              alt="website logo"
-            />
+          <Link to="/" className="logo-link">
+            <p className="website-logo">Nxt Commerce</p>
           </Link>
-
           <button
             type="button"
             className="nav-mobile-btn"
@@ -55,12 +50,8 @@ const Header = props => {
         </div>
 
         <div className="nav-bar-large-container">
-          <Link to="/">
-            <img
-              className="website-logo"
-              src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
-              alt="website logo"
-            />
+          <Link to="/" className="logo-link">
+            <p className="website-logo">Nxt Commerce</p>
           </Link>
           <ul className="nav-menu">
             <li className="nav-menu-item">

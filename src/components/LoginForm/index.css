@@ -41,6 +41,14 @@
   }
 }
 
+.login-logo {
+  color: #4d6a92;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+
 .login-website-logo-desktop-img {
   width: 185px;
 }
@@ -91,7 +99,8 @@
   height: 40px;
   border: 1px solid #d7dfe9;
   background-color: #e2e8f0;
-  color: #64748b;
+  color: #5e6a7c;
+  font-weight: 600;
   border-radius: 2px;
   margin-top: 5px;
   padding: 8px 16px 8px 16px;

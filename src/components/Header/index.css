@@ -53,14 +53,17 @@
   }
 }
 
-.website-logo {
-  width: 110px;
+.logo-link {
+  text-decoration: none;
+  cursor: pointer;
 }
 
-@media screen and (min-width: 768px) {
-  .website-logo {
-    width: 165px;
-  }
+.website-logo {
+  color: #4d6a92;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin: 0px;
 }
 
 .nav-menu {
@@ -104,10 +107,10 @@
 }
 
 .nav-menu-item {
-  font-family: 'Roboto';
   margin: 10px;
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
 }
 
 .nav-link {
